@@ -9,6 +9,8 @@ import 'modules/LazyLoadImage'
 
 import 'modules/FormAnimation'
 
+import 'modules/Content5'
+import 'modules/Footer2'
 
 import 'modules/UserAgent'
 import 'modules/Header'

@@ -1,3 +1,5 @@
+
+
 .pin-header {
   @apply border-b-1 border-primary-100;
 }
@@ -15,12 +17,14 @@
 
     .btn-transparent {
       @apply text-primary-100 border-primary-100;
+
       &:hover {
         @apply text-primary-200 border-primary-200;
       }
     }
   }
 }
+
 
 .screenshot {
   .header {
@@ -34,16 +38,17 @@
 
 @screen down_lg {
   header {
-    &:after {
+    &::after {
       content: '';
       @apply bg-white right-0 left-0 top-0 bottom-full absolute z-a-1;
     }
     &.is-open-menu {
       height: calc(100% + 70px);
 
-      &:after {
+      &::after {
         @apply bottom-0;
       }
+
     }
   }
 
@@ -53,6 +58,7 @@
     }
   }
 }
+
 
 @media (max-width: 767px) and (orientation: landscape) {
   .header {

@@ -152,12 +152,21 @@ module.exports = {
             maxWidth: '1390px'
           }
         },
-        '.container.option-v2': {
+        '.container2': {
+            width: '100%',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            paddingLeft: '0px',
+            paddingRight: '0px',
+        
+        
           '@screen lg': {
             maxWidth: '1100px',
           }
         }
+        
       })
+      
     }
   ]
 }

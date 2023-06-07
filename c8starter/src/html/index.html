@@ -2,16 +2,21 @@
 author: Frontend Team
 ourTeam: My Team
 ---
-{% extends 'layouts/application.html' %} 
+{% extends 'layouts/application.html' %}
 {% block bodyClass %}class="page-home has-animation"{% endblock %}
 
 {% block content %}
 <main id="main-content" class="main-content pt-40">
-    <!-- {% include 'modules/mod-banner-internal.html' %} -->
-    <!-- {% include 'modules/mod-hello-world.html' %} -->
-    <!-- {% include 'modules/mod-banner-new.html' %}
-    {% include 'modules/mod-testing.html' %} -->
-    {% include 'modules/mod-phone.html' %} <!-- em lam trong day nha anh -->
+    {% include 'modules/mod-content-1.html' %}
+    
 </main>
-
+    
+    {% include 'modules/mod-content.html' %}
+    {% include 'modules/mod-content-2.html' %}
+    {% include 'modules/mod-content-3.html' %}
+    {% include 'modules/mod-content-4.html' %}
+    {% include 'modules/mod-content-5.html' %}
+    {% include 'modules/mod-content-slick.html' %}
+    {% include 'modules/mod-footer.html' %}
+    
 {% endblock %}

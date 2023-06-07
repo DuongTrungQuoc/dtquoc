@@ -15,6 +15,9 @@ import 'modules/Header'
 import 'modules/Menu'
 import 'modules/AnimationScrollPage'
 import 'modules/ConvertSvg'
+import 'modules/Content5'
+import 'modules/Footer2'
+
 
 
 
