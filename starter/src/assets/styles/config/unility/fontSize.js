@@ -13,7 +13,7 @@ const fontSize = {
   '7xl': ['4.5rem', { lineHeight: '1' }],
   '8xl': ['6rem', { lineHeight: '1' }],
   '9xl': ['8rem', { lineHeight: '1' }],
-  'h1': ['1.875rem', { lineHeight: '1.3'}],
+  'h1': ['36px', { lineHeight: '1.3'}],
   'h2': [rem(24), { lineHeight: lineHeight(24, 32) }],
   'h3': ['1.25rem', { lineHeight: '1.3' }],
   'h4': ['1.375rem', { lineHeight: '1.3' }],
@@ -25,8 +25,8 @@ const fontSize = {
   'h4-md': ['1.75rem'],
   'h5-md': ['1.5rem'],
   'h6-md': ['1.25rem'],
-  'btn': ['.875em', { lineHeight: '1.2' }]
-
+  'btn': ['.875em', { lineHeight: '1.2' }],
+  '26px': ['26px', { lineHeight: '140%' }]
 }
 module.exports = {
   fontSize
