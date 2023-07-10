@@ -1,3 +1,10 @@
 body{
     font-family: "Poppins",sans-serif;
 }
+/* animation */
+.ring {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    border: 5px;
+}
